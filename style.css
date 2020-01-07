@@ -1,0 +1,133 @@
+a /* Liens par défaut (non survolés) */
+{
+   text-decoration: none;
+   color: grey;
+   font-style: normal;
+}
+
+a:hover /* Apparence au survol des liens */
+{
+   text-decoration: underline;
+   color: silver;
+}
+
+header
+{
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.element
+{
+    padding: 12px;
+    font-family: calibri;
+}
+
+
+#logo
+{
+    display: flex;
+    width: 275px;
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 10px;
+
+}
+
+form
+{
+    display: flex;
+    width: 600px;
+    text-align: justify;
+    margin: auto;
+    padding: 12px;
+}
+
+input
+{
+    display: flex;
+    width: 500px;
+    text-align: justify;
+    margin: auto;
+    padding: 12px;
+}
+
+#barre
+{
+    display: flex;
+    margin: auto;
+}
+
+#boutons
+{
+    display: flex;
+    width: 350px;
+    padding: 15px;
+    justify-content: center;
+    margin: auto;
+}
+
+.bouton
+{
+    font-family: calibri;
+    display: flex;
+    width: 150px;
+    height: 20px;
+    padding: 5px;
+    color: rgb(105, 103, 103);
+    text-align: justify;
+    justify-content: space-around;
+    margin: auto;
+    background-color: rgba(192, 192, 192, 0.384);
+    border: 3px white;
+    border-radius: 3px;
+}
+
+.bouton:hover
+{
+    font-family: calibri;
+    display: flex;
+    width: 150px;
+    height: 20px;
+    padding: 5px;
+    color: black;
+    text-align: justify;
+    justify-content: space-around;
+    margin: auto;
+    background-color: rgba(192, 192, 192, 0.384);
+    border: 1px solid silver;
+    border-radius: 3px;
+}
+
+footer
+{
+    display: flex;
+    flex-direction: column;
+    font-family: calibri;
+    align-items: flex-start;
+    height: 100px;
+    color: rgb(105, 103, 103);   
+    text-align: justify;
+    background-color: rgba(192, 192, 192, 0.384);
+    border: 1px solid silver;
+    margin-top: 15%;
+}
+
+
+#mentions-gauche
+{
+    display: flex;
+    justify-content: space-around;
+    text-align: center:
+    padding: 10px;
+}
+#mentions-droite
+{
+    display: flex;
+    justify-content: space-around;
+    text-align: center:
+    padding: 10px;
+}
+
